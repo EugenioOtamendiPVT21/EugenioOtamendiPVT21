@@ -4,11 +4,11 @@
       "prompt": "Vilken funktion använder du för att skriva ut text i terminalen?",
       "answers": [
         {
-          "answer": "print",
+          "answer": "print()",
           "correct": true
         },
         {
-          "answer": "input",
+          "answer": "input()",
           "correct": false
         },
         {
@@ -16,7 +16,7 @@
           "correct": false
         },
         {
-          "answer": "sys.exit",
+          "answer": "sys.exit()",
           "correct": false
         }
       ]
@@ -56,6 +56,48 @@
           "correct": true
         }
       ]
-    }
+    },
+
+  {
+    "id": "4",
+    "prompt": "Vad är skillnaden mellan Python Arrays och Listor?",
+    "answers": [
+      {
+        "answer": "Ingen skillnad Arrays och list är det samma sak",
+        "correct": false
+      },
+      {
+        "answer": "Arrays kan innehålla alla datatypselement medan Listor kan bara innehålla en endadatatypselement ",
+        "correct": false
+      },
+
+      {
+        "answer": "Arrays kan bara innehålla en enda datatypselement medan Listor kan innehålla alla datatypselement.",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "id": "5",
+    "prompt": "Vad är utmatningen av denna kod?\n  import array as arr\n My_Array=arr.array('i',[1,2,3,4,5])\n My_Array[::-1]",
+    "answers": [
+      {
+        "answer": "array('i', [5, 4, 3, 2, 1])",
+        "correct": true
+      },
+      {
+        "answer": "array('i', [1, 2, 3, 4, 5])",
+        "correct": false
+      },
+
+      {
+        "answer": "[1, 2, 3, 4, 5]",
+        "correct": false
+      }
+    ]
+  }
+
+
   ]
 }
